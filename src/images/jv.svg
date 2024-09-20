@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="-0.956 0 77.437 63.098" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="126.228" cy="132.409" r="93.723" id="gradient-0" spreadMethod="pad" gradientTransform="matrix(1, 0, 0, 1, -22.94455, -64.053532)">
+      <stop offset="0" style="stop-color: #bada55"/>
+      <stop offset="1" style="stop-color: #758d29"/>
+    </radialGradient>
+  </defs>
+  <text style="fill: url('#gradient-0'); font-family: 'Cascadia Mono SemiLight'; font-size: 28px; paint-order: fill; white-space: pre;" x="11.472" y="78.393" transform="matrix(1.6578201055526733, 0, 0, 1.8540370464324951, -8.502527236938477, -92.82870483398438)">jv</text>
+</svg>
