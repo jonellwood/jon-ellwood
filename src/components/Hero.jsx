@@ -4,7 +4,7 @@
  * @license Apache-2.0
  */
 
-import { ButtonPrimary, ButtonOutline } from './Button';
+import { ButtonPrimary } from './Button';
 
 const Hero = () => {
 	return (
@@ -32,8 +32,8 @@ const Hero = () => {
 						I Make Websites That Are Good Enough
 					</h2>
 					<div className='flex items-center gap-3'>
-						<ButtonPrimary label='Download CV' icon='download' />
-						<ButtonOutline
+						{/* <ButtonPrimary label='Download CV' icon='download' /> */}
+						<ButtonPrimary
 							href='#about'
 							label='Scroll Down'
 							icon='arrow_downward'
