@@ -78,7 +78,7 @@ const Skill = () => {
 	return (
 		<section className='section'>
 			<div className='container'>
-				<h2 className='headline-2'>An essential tool I am.</h2>
+				<h2 className='headline-2 reveal-up'>An essential tool I am.</h2>
 				<p className='text-zinc-400 mt-3 mb-8 max-w-[50ch]'>
 					I use powerful tools like ChatGPT, and Google to do 99% of the work. I
 					say, let the technology create exceptional, high-performing websites &
@@ -87,7 +87,13 @@ const Skill = () => {
 
 				<div className='grid gap-3 grid-cols-[repeat(auto-fit,minmax(250px,1fr))]'>
 					{skillItem.map(({ imgSrc, label, desc }, key) => (
-						<SkillCard key={key} imgSrc={imgSrc} label={label} desc={desc} />
+						<SkillCard
+							key={key}
+							imgSrc={imgSrc}
+							label={label}
+							desc={desc}
+							classes='reveal-up'
+						/>
 					))}
 				</div>
 			</div>

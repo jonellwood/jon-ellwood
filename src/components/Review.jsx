@@ -3,6 +3,23 @@
  * @author Jon Ellwood
  * @license Apache-2.0
  */
+
+/**
+ * Node Modules
+ */
+
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { useGSAP } from '@gsap/react';
+
+/**
+ * Register GSAP plugins
+ */
+gsap.registerPlugin(useGSAP, ScrollTrigger);
+
+/**
+ * Components
+ */
 import ReviewCard from './ReviewCard.jsx';
 const reviews = [
 	{
@@ -50,19 +67,28 @@ const reviews = [
 ];
 
 const Review = () => {
-	// const ref = useRef(null);
-	// const isInView = useInView(ref, { once: true });
+	useGSAP(() => {
+		gsap.to('.scrub-slide', {
+			scrollTrigger: {
+				trigger: '.scrub-slide',
+				start: '-200% 80%',
+				end: '400% 80%',
+				scrub: true,
+			},
+			x: '-1000',
+		});
+	});
 
 	return (
 		<section className='section overflow-hidden' id='reviews'>
 			<div className='container'>
-				<h2 className='headline-2 mb-8'>Fake Client Reviews</h2>
+				<h2 className='headline-2 mb-8 reveal-up'>Fake Client Reviews</h2>
 				<p className='text-sm text-gray-500 py-2 my-2 '>
 					Below are some fake reviews from made up clients. I hope to get some
 					friends someday though
 				</p>
 
-				<div className='flex items-stretch gap-3 w-fit'>
+				<div className='scrub-slide flex items-stretch gap-3 w-fit'>
 					{reviews.map(({ content, name, imgSrc, company }, key) => (
 						<ReviewCard
 							key={key}

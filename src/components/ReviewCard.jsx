@@ -11,7 +11,7 @@ ratings.fill({
 	icon: 'star',
 	style: { fontVariationSettings: '"FILL" 1' },
 });
-console.log(ratings);
+// console.log(ratings);
 
 const ReviewCard = ({ content, name, imgSrc, company }) => {
 	return (

@@ -16,7 +16,7 @@ const works = [
 	{
 		imgSrc: 'src/images/pocketmonsters.jpg',
 		title: 'Portfolio site based on popular game',
-		tags: ['Top Down', 'Intro SIte'],
+		tags: ['Top Down', 'Intro Site'],
 		// projectLink: 'https://pixstock-official.vercel.app/',
 	},
 	{
@@ -45,13 +45,13 @@ const works = [
 	},
 ];
 
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 const Work = () => {
 	return (
-		<section className='section'>
+		<section className='section' id='work'>
 			<div className='container'>
-				<h2 className='headline-2'>My portfolio highlights</h2>
+				<h2 className='headline-2 reveal-up'>My portfolio highlights</h2>
 
 				<div className='grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,minmax(280px,1fr))]'>
 					{works.map(({ imgSrc, title, tags, projectLink }, key) => (
@@ -61,7 +61,7 @@ const Work = () => {
 							title={title}
 							tags={tags}
 							projectLink={projectLink}
-							classes='mt-8'
+							classes='reveal-up'
 						/>
 					))}
 				</div>
