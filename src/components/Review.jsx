@@ -26,42 +26,42 @@ const reviews = [
 		content:
 			'Amazing mobile app development! Intuitive interface and lightning-fast performance. Highly impressed.',
 		name: 'Olivia Martinez',
-		imgSrc: 'src/images/people-1.jpg',
+		imgSrc: 'people-1.jpg',
 		company: 'AppAlchemy',
 	},
 	{
 		content:
 			'Incredible UI/UX design! Visually stunning and easy to navigate. Exceeded expectations.',
 		name: 'Ella Crawford',
-		imgSrc: 'src/images/people-2.jpg',
+		imgSrc: 'people-2.jpg',
 		company: 'PixelCraft',
 	},
 	{
 		content:
 			'Exceptional e-commerce solution! Optimized for conversions and seamless checkout. Highly recommend.',
 		name: 'Liam Carter',
-		imgSrc: 'src/images/people-3.jpg',
+		imgSrc: 'people-3.jpg',
 		company: 'CommerceEngine',
 	},
 	{
 		content:
 			'Brilliant SEO services! Increased organic traffic and improved search rankings. Fantastic results.',
 		name: 'Noah Thompson',
-		imgSrc: 'src/images/people-4.jpg',
+		imgSrc: 'people-4.jpg',
 		company: 'SEOPro',
 	},
 	{
 		content:
 			'Top-notch digital marketing campaign! Effective strategy and measurable results. Great team to work with.',
 		name: 'Ava Johnson',
-		imgSrc: 'src/images/people-5.jpg',
+		imgSrc: 'people-5.jpg',
 		company: 'MarketMind',
 	},
 	{
 		content:
 			'Outstanding cloud infrastructure implementation! Scalable, reliable, and cost-effective. Highly satisfied.',
 		name: 'Jonathan',
-		imgSrc: 'src/images/people-6.jpg',
+		imgSrc: 'people-6.jpg',
 		company: 'CloudExperts',
 	},
 ];

@@ -43,14 +43,14 @@ const About = () => {
 							</div>
 						))}
 						<img
-							src='/src/images/jonellwood.svg'
+							src='jonellwood.svg'
 							alt='Logo'
 							width={130}
 							// height={30}
 							className='ml-auto hover:blur-sm transition-all'
 						/>
 						{/* <img
-							src='/src/images/jd_pixel.png'
+							src='jd_pixel.png'
 							alt='Logo'
 							width={130}
 							// height={30}

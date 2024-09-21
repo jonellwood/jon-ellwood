@@ -8,67 +8,67 @@ import SkillCard from './SkillCard';
 
 const skillItem = [
 	{
-		imgSrc: 'src/images/github.svg',
+		imgSrc: 'github.svg',
 		label: 'GitHub',
 		desc: 'Code Repository',
 	},
 	{
-		imgSrc: 'src/images/css3.svg',
+		imgSrc: 'css3.svg',
 		label: 'CSS',
 		desc: 'User Interface',
 	},
 	{
-		imgSrc: 'src/images/javascript.svg',
+		imgSrc: 'javascript.svg',
 		label: 'JavaScript',
 		desc: 'Interaction',
 	},
 	{
-		imgSrc: 'src/images/php.svg',
+		imgSrc: 'php.svg',
 		label: 'PHP',
 		desc: 'Server Side',
 	},
 	{
-		imgSrc: 'src/images/nodejs.svg',
+		imgSrc: 'nodejs.svg',
 		label: 'NodeJS',
 		desc: 'Web Server',
 	},
 	{
-		imgSrc: 'src/images/expressjs.svg',
+		imgSrc: 'expressjs.svg',
 		label: 'ExpressJS',
 		desc: 'Node Framework',
 	},
 	{
-		imgSrc: 'src/images/mysql2.svg',
+		imgSrc: 'mysql2.svg',
 		label: 'MySQL',
 		desc: 'Database',
 	},
 	{
-		imgSrc: 'src/images/mongodb.svg',
+		imgSrc: 'mongodb.svg',
 		label: 'MongoDB',
 		desc: 'Database',
 	},
 	{
-		imgSrc: 'src/images/sqlite.svg',
+		imgSrc: 'sqlite.svg',
 		label: 'SQLite',
 		desc: 'Database (Local)',
 	},
 	{
-		imgSrc: 'src/images/react.svg',
+		imgSrc: 'react.svg',
 		label: 'React',
 		desc: 'Framework',
 	},
 	{
-		imgSrc: 'src/images/svelte.svg',
+		imgSrc: 'svelte.svg',
 		label: 'Svelte',
 		desc: 'Framework',
 	},
 	{
-		imgSrc: 'src/images/tailwindcss.svg',
+		imgSrc: 'tailwindcss.svg',
 		label: 'TailwindCSS',
 		desc: 'User Interface',
 	},
 	{
-		imgSrc: 'src/images/aws.svg',
+		imgSrc: 'aws.svg',
 		label: 'Amazon Web Services',
 		desc: 'Cloud Suite',
 	},
