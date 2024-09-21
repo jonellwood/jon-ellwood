@@ -29,7 +29,7 @@ const Hero = () => {
 						</div>
 					</div>
 					<h2 className='headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10'>
-						Building Websites Like Lincoln Logs
+						I Make Websites That Are Good Enough
 					</h2>
 					<div className='flex items-center gap-3'>
 						<ButtonPrimary label='Download CV' icon='download' />

@@ -8,9 +8,9 @@ import SkillCard from './SkillCard';
 
 const skillItem = [
 	{
-		imgSrc: 'src/images/figma.svg',
-		label: 'Figma',
-		desc: 'Design tool',
+		imgSrc: 'src/images/github.svg',
+		label: 'GitHub',
+		desc: 'Code Repository',
 	},
 	{
 		imgSrc: 'src/images/css3.svg',
@@ -23,6 +23,11 @@ const skillItem = [
 		desc: 'Interaction',
 	},
 	{
+		imgSrc: 'src/images/php.svg',
+		label: 'PHP',
+		desc: 'Server Side',
+	},
+	{
 		imgSrc: 'src/images/nodejs.svg',
 		label: 'NodeJS',
 		desc: 'Web Server',
@@ -33,9 +38,19 @@ const skillItem = [
 		desc: 'Node Framework',
 	},
 	{
+		imgSrc: 'src/images/mysql2.svg',
+		label: 'MySQL',
+		desc: 'Database',
+	},
+	{
 		imgSrc: 'src/images/mongodb.svg',
 		label: 'MongoDB',
 		desc: 'Database',
+	},
+	{
+		imgSrc: 'src/images/sqlite.svg',
+		label: 'SQLite',
+		desc: 'Database (Local)',
 	},
 	{
 		imgSrc: 'src/images/react.svg',
@@ -43,9 +58,19 @@ const skillItem = [
 		desc: 'Framework',
 	},
 	{
+		imgSrc: 'src/images/svelte.svg',
+		label: 'Svelte',
+		desc: 'Framework',
+	},
+	{
 		imgSrc: 'src/images/tailwindcss.svg',
 		label: 'TailwindCSS',
 		desc: 'User Interface',
+	},
+	{
+		imgSrc: 'src/images/aws.svg',
+		label: 'Amazon Web Services',
+		desc: 'Cloud Suite',
 	},
 ];
 

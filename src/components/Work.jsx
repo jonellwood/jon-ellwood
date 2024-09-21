@@ -8,16 +8,16 @@ import ProjectCard from './ProjectCard';
 
 const works = [
 	{
-		imgSrc: 'src/images/project-1.jpg',
-		title: 'Full stack music app',
-		tags: ['API', 'MVC', 'Development'],
-		projectLink: 'https://musify-5al0.onrender.com/',
+		imgSrc: 'src/images/markscustoms.jpg',
+		title: 'Custom Made Furniture',
+		tags: ['eCommerce', 'Client Project'],
+		projectLink: 'https://marklinscustommade.com/',
 	},
 	{
-		imgSrc: 'src/images/project-2.jpg',
-		title: 'Free stock photo app',
-		tags: ['API', 'SPA'],
-		projectLink: 'https://pixstock-official.vercel.app/',
+		imgSrc: 'src/images/pocketmonsters.jpg',
+		title: 'Portfolio site based on popular game',
+		tags: ['Top Down', 'Intro SIte'],
+		// projectLink: 'https://pixstock-official.vercel.app/',
 	},
 	{
 		imgSrc: 'src/images/project-3.jpg',
@@ -53,7 +53,7 @@ const Work = () => {
 			<div className='container'>
 				<h2 className='headline-2'>My portfolio highlights</h2>
 
-				<div className=''>
+				<div className='grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,minmax(280px,1fr))]'>
 					{works.map(({ imgSrc, title, tags, projectLink }, key) => (
 						<ProjectCard
 							key={key}
