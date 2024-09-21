@@ -82,7 +82,7 @@ const Contact = () => {
 				<h2 className='headline-2 lg:max-w-[12ch] reveal-up'>
 					Let&apos;s connect
 				</h2>
-				<p className='text-zinc-400 mt-3 mb-8 max-w-[50ch] lg:max-w-[30ch]'>
+				<p className='text-zinc-400 w-full mt-3 mb-8 ml-6 pl-2'>
 					Whether you have a question or just want to say hi, I&apos;ll try my
 					best to get back to you!
 				</p>
@@ -132,7 +132,7 @@ const Contact = () => {
 								className='text-field reveal-up'
 							/>
 						</div>
-						<div className='mb-4'>
+						<div className='mb-4 col-span-2'>
 							<label htmlFor='message' className='label reveal-up'>
 								Message
 							</label>

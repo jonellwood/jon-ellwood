@@ -83,6 +83,7 @@ const Review = () => {
 		<section className='section overflow-hidden' id='reviews'>
 			<div className='container'>
 				<h2 className='headline-2 mb-8 reveal-up'>Fake Client Reviews</h2>
+
 				<p className='text-sm text-gray-500 py-2 my-2 '>
 					Below are some fake reviews from made up clients. I hope to get some
 					friends someday though
