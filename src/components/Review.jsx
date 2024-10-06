@@ -52,10 +52,10 @@ const reviews = [
 	},
 	{
 		content:
-			'Top-notch digital marketing campaign! Effective strategy and measurable results. Great team to work with.',
-		name: 'Ava Johnson',
+			'Top-notch digital marketing campaign! Effective strategy and measurable results. Great developer to work with.',
+		name: 'David Kornahrens',
 		imgSrc: 'people-5.jpg',
-		company: 'MarketMind',
+		company: 'Sitekings, LLC',
 	},
 	{
 		content:
