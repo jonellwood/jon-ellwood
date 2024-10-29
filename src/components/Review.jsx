@@ -45,17 +45,17 @@ const reviews = [
 	},
 	{
 		content:
-			'Brilliant SEO services! Increased organic traffic and improved search rankings. Fantastic results.',
-		name: 'Noah Thompson',
-		imgSrc: 'people-4.jpg',
-		company: 'SEOPro',
-	},
-	{
-		content:
 			'Top-notch digital marketing campaign! Effective strategy and measurable results. Great developer to work with.',
 		name: 'David Kornahrens',
 		imgSrc: 'people-5.jpg',
 		company: 'Sitekings, LLC',
+	},
+	{
+		content:
+			'Brilliant SEO services! Increased organic traffic and improved search rankings. Fantastic results.',
+		name: 'Noah Thompson',
+		imgSrc: 'people-4.jpg',
+		company: 'SEOPro',
 	},
 	{
 		content:
